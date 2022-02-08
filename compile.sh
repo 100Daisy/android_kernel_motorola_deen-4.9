@@ -40,7 +40,7 @@ build_clang() {
 	CROSS_COMPILE_ARM32=arm-linux-gnueabi-
 }
 
-make msm8953-perf_defconfig ARCH=arm64 O=out 
+make deen_defconfig ARCH=arm64 O=out 
 build_clang
 
 # Zip up the kernel
